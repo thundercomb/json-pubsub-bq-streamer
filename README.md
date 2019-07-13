@@ -1,6 +1,10 @@
 # JSON Streamer with PubSub and BigQuery
 
-Stream JSON data via PubSub into BigQuery using simple Python scripts and the Google Cloud libaries for PubSub and Bigquery. 
+Stream JSON data via PubSub into BigQuery using simple Python scripts and the Google Cloud libaries for PubSub and Bigquery. These scripts do not use a GCP service account. They assume that application default credentials are in use.
+
+```
+gcloud auth application-default login
+```
   
 For best results use Python 3.
 
