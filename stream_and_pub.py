@@ -1,5 +1,4 @@
 from ijson import parse
-from contextlib import closing
 from urllib import request
 import re
 

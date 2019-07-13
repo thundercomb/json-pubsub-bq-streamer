@@ -1,5 +1,4 @@
 import time
-import datetime
 import json
 
 from google.cloud import pubsub_v1
