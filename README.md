@@ -5,8 +5,14 @@ Stream JSON data via PubSub into BigQuery using simple Python scripts and the Go
 ```
 gcloud auth application-default login
 ```
-  
+
 For best results use Python 3.
+
+# Preparation
+
+PubSub and BigQuery APIs should be enabled. 
+Create a PubSub topic and subscription.
+Create a BigQuery dataset and table.
 
 # Install dependencies
 
